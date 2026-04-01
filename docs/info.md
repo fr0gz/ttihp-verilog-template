@@ -9,9 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-I'm trying to implement the fibonacci sequence example in this tiny tapeout
+Explica aquí brevemente la lógica de tu diseño. Por ejemplo: 
+"Este proyecto es un sumador de 4 bits que utiliza puertas lógicas básicas..."
 
 ## How to test
 
-Trying to figure out
+Explica cómo alguien puede probar tu diseño una vez fabricado o en simulación.
+"Configura las entradas ui_in[3:0] y observa el resultado en uo_out..."
 
