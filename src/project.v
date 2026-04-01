@@ -7,7 +7,7 @@
 
 module fibonacci_8bit (
     input  wire clk,    // Dedicated inputs
-    output reg[7:0] fib,   // Dedicated outputs
+    output reg[7:0] fib   // Dedicated outputs
    
 );
     reg[7:0] a=0;
