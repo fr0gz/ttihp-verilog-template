@@ -21,9 +21,9 @@ project:
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+# Pinout correcto según los errores de validación:
 pinout:
-  # Entradas (ui_in) - Como no las usas, las marcamos como no usadas
-  ui_in:
+  ui:
     - "unused"
     - "unused"
     - "unused"
@@ -32,19 +32,15 @@ pinout:
     - "unused"
     - "unused"
     - "unused"
-
-  # Salidas (uo_out) - Aquí sale tu número de Fibonacci bit a bit
-  uo_out:
-    - "fib_bit0"
-    - "fib_bit1"
-    - "fib_bit2"
-    - "fib_bit3"
-    - "fib_bit4"
-    - "fib_bit5"
-    - "fib_bit6"
-    - "fib_bit7"
-
-  # Bidireccionales (uio)
+  uo:
+    - "fib0"
+    - "fib1"
+    - "fib2"
+    - "fib3"
+    - "fib4"
+    - "fib5"
+    - "fib6"
+    - "fib7"
   uio:
     - "unused"
     - "unused"
@@ -54,6 +50,7 @@ pinout:
     - "unused"
     - "unused"
     - "unused"
+
 
 # Do not change!
 yaml_version: 6
