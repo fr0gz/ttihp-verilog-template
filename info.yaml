@@ -3,7 +3,7 @@ project:
   title:        "hello_world fibonacci"      # Project title
   author:       "Cristian Guevara"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "haciendo hello world con fibonacci"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
